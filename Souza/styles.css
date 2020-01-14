@@ -1,0 +1,88 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    top: 10px;
+    width: 600px;
+    background-color:#1E1E1E;
+}
+
+.bar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    top: 10px;
+    width: 800px;
+    background-color:#1E1E1E;
+}
+
+p {
+    font-size: 18px;
+}
+
+#contact {
+    padding: 50px;
+    font-size: 14px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#1E1E1E;
+    color: white;
+    text-align: left;
+}
+
+body{
+    background-color:#1E1E1E;
+    padding: 100px 0px 0px 0px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#name{
+    height: 60px;
+    width: 300px;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+.grid_parent {
+    width: 970px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.grid_p2 {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+img {
+    width: 300px;
+}
+
+/*p, div, h1, h2, h3, h4, h5, h6, address, header, nav, section, article, img {*/
+/*    border: 4px solid red;*/
+/*}*/
